@@ -1,0 +1,6 @@
+framework module Pods_StrydOnboardDemo {
+  umbrella header "Pods-StrydOnboardDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

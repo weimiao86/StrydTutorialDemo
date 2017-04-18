@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D8BB523293501371182ED0 /* Pods_StrydOnboardDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7D40969E1F8822E2FE1C43 /* Pods_StrydOnboardDemo.framework */; };
+		C0329CD51EA602D800BEB0D1 /* Onboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0329CD41EA602D800BEB0D1 /* Onboard.storyboard */; };
+		C0C8C2F41EA600FF001F2477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C2F31EA600FF001F2477 /* AppDelegate.swift */; };
+		C0C8C2F61EA600FF001F2477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C2F51EA600FF001F2477 /* ViewController.swift */; };
+		C0C8C2F91EA600FF001F2477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C8C2F71EA600FF001F2477 /* Main.storyboard */; };
+		C0C8C2FB1EA600FF001F2477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C8C2FA1EA600FF001F2477 /* Assets.xcassets */; };
+		C0C8C2FE1EA600FF001F2477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C8C2FC1EA600FF001F2477 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		770FAF46AD8F70B7A4A1F6C9 /* Pods-StrydOnboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrydOnboardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StrydOnboardDemo/Pods-StrydOnboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AF7D40969E1F8822E2FE1C43 /* Pods_StrydOnboardDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrydOnboardDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0329CD41EA602D800BEB0D1 /* Onboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboard.storyboard; sourceTree = "<group>"; };
+		C0C8C2F01EA600FF001F2477 /* StrydOnboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrydOnboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C8C2F31EA600FF001F2477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0C8C2F51EA600FF001F2477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0C8C2F81EA600FF001F2477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0C8C2FA1EA600FF001F2477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0C8C2FD1EA600FF001F2477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0C8C2FF1EA600FF001F2477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2C2A7E39A6EDF9AE108F5A /* Pods-StrydOnboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrydOnboardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-StrydOnboardDemo/Pods-StrydOnboardDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0C8C2ED1EA600FF001F2477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D8BB523293501371182ED0 /* Pods_StrydOnboardDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57C9FC077388B06F9DE25AE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF7D40969E1F8822E2FE1C43 /* Pods_StrydOnboardDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0C8C2E71EA600FF001F2477 = {
+			isa = PBXGroup;
+			children = (
+				C0C8C2F21EA600FF001F2477 /* StrydOnboardDemo */,
+				C0C8C2F11EA600FF001F2477 /* Products */,
+				F57C1187D543BFCE3D0DF54C /* Pods */,
+				57C9FC077388B06F9DE25AE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0C8C2F11EA600FF001F2477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8C2F01EA600FF001F2477 /* StrydOnboardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0C8C2F21EA600FF001F2477 /* StrydOnboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8C2F31EA600FF001F2477 /* AppDelegate.swift */,
+				C0C8C2F51EA600FF001F2477 /* ViewController.swift */,
+				C0C8C2F71EA600FF001F2477 /* Main.storyboard */,
+				C0329CD41EA602D800BEB0D1 /* Onboard.storyboard */,
+				C0C8C2FA1EA600FF001F2477 /* Assets.xcassets */,
+				C0C8C2FC1EA600FF001F2477 /* LaunchScreen.storyboard */,
+				C0C8C2FF1EA600FF001F2477 /* Info.plist */,
+			);
+			path = StrydOnboardDemo;
+			sourceTree = "<group>";
+		};
+		F57C1187D543BFCE3D0DF54C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				770FAF46AD8F70B7A4A1F6C9 /* Pods-StrydOnboardDemo.debug.xcconfig */,
+				DF2C2A7E39A6EDF9AE108F5A /* Pods-StrydOnboardDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0C8C2EF1EA600FF001F2477 /* StrydOnboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C8C3021EA600FF001F2477 /* Build configuration list for PBXNativeTarget "StrydOnboardDemo" */;
+			buildPhases = (
+				BC7FF4948FEFCA918A5D29EA /* [CP] Check Pods Manifest.lock */,
+				C0C8C2EC1EA600FF001F2477 /* Sources */,
+				C0C8C2ED1EA600FF001F2477 /* Frameworks */,
+				C0C8C2EE1EA600FF001F2477 /* Resources */,
+				3DD920F3CB707020E479B36D /* [CP] Embed Pods Frameworks */,
+				9DC150F8262471070EA9F5BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrydOnboardDemo;
+			productName = StrydOnboardDemo;
+			productReference = C0C8C2F01EA600FF001F2477 /* StrydOnboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0C8C2E81EA600FF001F2477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wei;
+				TargetAttributes = {
+					C0C8C2EF1EA600FF001F2477 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = Y3K3VUH8FU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C0C8C2EB1EA600FF001F2477 /* Build configuration list for PBXProject "StrydOnboardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0C8C2E71EA600FF001F2477;
+			productRefGroup = C0C8C2F11EA600FF001F2477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0C8C2EF1EA600FF001F2477 /* StrydOnboardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0C8C2EE1EA600FF001F2477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C8C2FE1EA600FF001F2477 /* LaunchScreen.storyboard in Resources */,
+				C0C8C2FB1EA600FF001F2477 /* Assets.xcassets in Resources */,
+				C0329CD51EA602D800BEB0D1 /* Onboard.storyboard in Resources */,
+				C0C8C2F91EA600FF001F2477 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DD920F3CB707020E479B36D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StrydOnboardDemo/Pods-StrydOnboardDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DC150F8262471070EA9F5BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StrydOnboardDemo/Pods-StrydOnboardDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC7FF4948FEFCA918A5D29EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0C8C2EC1EA600FF001F2477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C8C2F61EA600FF001F2477 /* ViewController.swift in Sources */,
+				C0C8C2F41EA600FF001F2477 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0C8C2F71EA600FF001F2477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C8C2F81EA600FF001F2477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0C8C2FC1EA600FF001F2477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C8C2FD1EA600FF001F2477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0C8C3001EA600FF001F2477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0C8C3011EA600FF001F2477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0C8C3031EA600FF001F2477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770FAF46AD8F70B7A4A1F6C9 /* Pods-StrydOnboardDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3K3VUH8FU;
+				INFOPLIST_FILE = StrydOnboardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weimiao.StrydOnboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0C8C3041EA600FF001F2477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2C2A7E39A6EDF9AE108F5A /* Pods-StrydOnboardDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3K3VUH8FU;
+				INFOPLIST_FILE = StrydOnboardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weimiao.StrydOnboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0C8C2EB1EA600FF001F2477 /* Build configuration list for PBXProject "StrydOnboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C8C3001EA600FF001F2477 /* Debug */,
+				C0C8C3011EA600FF001F2477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C8C3021EA600FF001F2477 /* Build configuration list for PBXNativeTarget "StrydOnboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C8C3031EA600FF001F2477 /* Debug */,
+				C0C8C3041EA600FF001F2477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0C8C2E81EA600FF001F2477 /* Project object */;
+}
